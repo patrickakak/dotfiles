@@ -1,0 +1,16 @@
+[merge]
+  tool = vimdiff
+[mergetool "vimdiff"]
+  cmd = vimdiff $BASE $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
+[diff]
+  tool = vimdiff
+[core]
+  autocrlf = input
+  editor = nvim
+[pull]
+  rebase = false
+[user]
+  name = woozway
+  email = 22060468@zju.edu.cn
+[init]
+  defaultBranch = main
