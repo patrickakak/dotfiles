@@ -10,3 +10,4 @@
 	st = status
 	unstage = reset HEAD --
 	last = log -1 HEAD
+	graph = log --graph --oneline --decorate
