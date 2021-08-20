@@ -11,11 +11,8 @@
     ~/.hammerspoon:
       if: '[ `uname` = Darwin ]'
     ~/.pythonrc:
-    ~/.shell:
     ~/.tmux.conf:
-    ~/.vim:
     ~/.vimrc:
-    ~/.zsh:
     ~/.zshrc:
 
 - create:
