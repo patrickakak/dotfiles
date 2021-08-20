@@ -72,6 +72,7 @@ ZSH_THEME="agnoster"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  osx
   # need to git clone the zsh-* repo into $ZSH_CUSTOM/plugins/ first
   zsh-completions
   zsh-syntax-highlighting
