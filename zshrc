@@ -109,4 +109,4 @@ source $ZSH/oh-my-zsh.sh
 
 # set go environment variables
 export GOPATH=$HOME/go
-
+export PATH="/usr/local/opt/go@1.15/bin:$PATH"
