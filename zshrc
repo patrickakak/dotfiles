@@ -106,3 +106,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# set up go environment
+export PATH="/usr/local/opt/go@1.13/bin:$PATH"
