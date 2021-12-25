@@ -28,6 +28,8 @@ set showmatch
 set shortmess+=I
 " Show line numbers
 set number
+" Set tabstop
+set tabstop=2
 " Relative line numbering
 set relativenumber
 " highligt search
@@ -57,6 +59,11 @@ set smartcase
 
 " Enable searching as you type, rather than waiting till you press enter.
 set incsearch
+
+" Cursor remembers where it left last time
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
 
 "--------------------
 "" Misc configurations
