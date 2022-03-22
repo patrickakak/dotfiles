@@ -54,7 +54,7 @@ set hidden
 " This setting makes search case-insensitive when all characters in the string
 " being searched are lowercase. However, the search becomes case-sensitive if
 " it contains any capital letters. This makes searching more convenient.
-set ignorecase
+" set ignorecase
 set smartcase
 
 " Enable searching as you type, rather than waiting till you press enter.
