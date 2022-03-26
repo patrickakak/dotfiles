@@ -4,6 +4,6 @@ My dotfiles. Keep it as simple as possible~
 - On any new Mac with zsh, simply run the following commands to install dotfiles:
   ```shell
   > git clone git@github.com:woozway/dotfiles.git --recursive
-  > (or git clone git@github.com:woozway/dotfiles.git --recursive)
+  > (or git clone https://github.com/woozway/dotfiles.git --recursive)
   > cd dotfiles && ./install
   ```
